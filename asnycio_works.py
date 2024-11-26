@@ -19,3 +19,4 @@ async def get_data_async_but_as_wrapper(urls):
     return json_array
 
 asyncio.run(get_data_async_but_as_wrapper(urls))
+
